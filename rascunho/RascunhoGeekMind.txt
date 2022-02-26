@@ -1,0 +1,28 @@
+CORES USADAS
+#fbfbfb branco geada
+#1b3235 verde navbar escura 
+#DAE0E6 branco acinzentado
+#F2F2F2 branco offwhite
+#101019 cinza quase preto
+#2F3340 cinza azulado escuro OU mais claro #302E59
+#19ad16 verde link
+#C3C3C3 cor do reflexo do óculos
+#99D9EA cor das lentes do óculos
+#FFAEC9 cor primária do cérebro
+#FF6F6F cor secundária do cérebro
+#192124 verde body
+#151c1f verde post
+#171f22 verde textArea
+
+              
+ 			Botões de Likes
+
+<div class="actionBtnLikes">
+                        <button type="button" class="filesPost"><img src="css/img/seta.svg" alt="VoteUp"></button>
+                    </div>
+                    <div class="actionBtnLikes">
+                        <button type="button" class="filesPost"><img src="css/img/djanho.ico" alt="Interessante"></button>
+                    </div>
+                    <div class="actionBtnLikes">
+                        <button type="button" class="filesPost"><img src="css/img/Genial.ico" alt="Genial"></button>
+                    </div>

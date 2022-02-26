@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #192124;
+    font-family: 'Poppins', sans-serif;
+    
+    -webkit-font-smothing: antialiased !important
+}
+
+li {
+    list-style: none;
+
+}
+
+.header_left img {
+    height: 30px;
+
+}
+
+.user_avatar {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.EuProfile {
+    margin-inline-start: 45px;
+    margin-top: -5px;
+    color: #fbfbfb;
+}
+
+.iconDarkNight {
+    margin-right: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: #1b3235;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+    width: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: -230px;
+
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    background-color: #303134;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+    height: 35px;
+    width: 310px;
+
+}
+
+.header_input input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    font-family: sans-serif;
+    width: 300px;
+    color: #fbfbfb;
+}
+
+.search {
+    margin-top: 5px;
+}
+
+.main div.header_middle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-inline-start: 80px;
+
+}
+
+.main div.header_option .material-icons {
+    font-size: xx-large;
+    color: rgb(228, 6, 6);
+
+}
+
+.main div.header_option:hover .material-incons {
+    color: rgb(23, 7, 255);
+}
+
+.main div.header_option {
+    display: flex;
+    align-items: center;
+    padding: 0 80px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btnFileForm {
+    width: 23px;
+    height: 23px;
+    background-image: url(css/img/faticonestudos.png);
+    margin-left: 2px;
+    
+}
+
+.main {
+    max-width: 750px;
+    margin: 0 auto;
+
+}
+
+div.newPost {
+    width: 100%;
+    height: 210px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 0;
+    padding: 25px;
+    margin-top: 10px;
+    background: #151c1f;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+div.newPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.newPost div.infoUser div.imgUser {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333;
+
+}
+
+div.newPost div.infoUser strong {
+    font-size: 16px;
+    margin-left: 10px;
+    color: #99D9EA;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.newPost form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.newPost form.formPost textarea {
+    height: 70px;
+    background: #192124;
+    color: #fbfbfb;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 7px;
+    resize: none;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.4);
+    border: #1b3235;
+    font-weight: bold;
+}
+
+div.newPost form.formPost div.iconsAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm {
+    background: #652ecc;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition:  background 0.2s;
+
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm:hover{
+    background: #6022d3;
+}
+ul.posts li.post {
+    margin-top: -25px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: #151c1f;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+
+ul.posts li.post div.infoUserPost div.imgUserPost {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #333;
+}
+
+.actionBtnLikes {
+    margin-bottom: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.05);
+    color: #fff;
+}
+
+.card-post {
+    margin-inline-start: 60px;
+    width: 630px;
+}
+
+.card-text {
+    margin-inline-start: 60px;
+}
+
+.card-img img {
+    margin-inline-start: 60px;
+    width: 630px;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.6);
+}
+
+.card-hashtags {
+    margin-inline-start: 60px;
+    width: 330px;
+    color: #006FB9;
+    font-size: 15px;
+}
+
+.actionBtnPost {
+    margin-inline-start: 60px;
+    margin-top: 10px;
+}
+
+div.actionBtnPost button.filesPost {
+    padding: 5px 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    color: #fbfbfb;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: background: 0.2s;
+
+}
+
+ul.posts li.post div.actionBtnPost button.filesPost img {
+    margin-right: 5px;
+
+}
+
+ul.posts li.post div.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    background: #20fb74c5;
+}
+.comment:hover{
+    background: #39d173;
+}
+
+
+.share {
+    background: #23A0FF;
+}
+.share:hover{
+    background: #506aff;
+}
+
+.OpenPdf {
+    background: #FF6F6F;
+}
+.OpenPdf:hover{
+    background: #e05a5a;
+}
+
+button.BtnLaterais {
+    font-size: 42px;
+    color: #08c048;
+    padding: 5px 5px;
+    border: 0;
+    display: flex;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+    
+
+    transition: background: 0.2s;
+}
+
+.BtnLaterais:hover {
+    color: #00ff59;
+}
+
+
+div.voteup button.BtnLaterais2 {
+    font-size: 42px;
+    color: #08c048;
+    padding: 5px 5px;
+    border: 0;
+    display: flex;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+    
+
+    transition: background: 0.2s;
+}
+
+.BtnLaterais2:hover {
+    color: #00ff59;
+}
+
+.ContUps {
+    margin-inline-start: 5px;
+    font-size: 12px;
+    display: flex;
+}
+
+.tracejado {
+    margin-inline-start: 15px;
+}
+
+p.hours {
+    position: relative;
+    font-size: 10px;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    color: #fbfbfb;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.2), 15px 25px 10px rgba(0, 0, 0, 0.03), 15px 20px 20px rgba(0, 0, 0, 0.03), inset -10px -10px 15px rgba(97, 96, 96, 0.9);
+    
+}
+
+p.hours::before {
+    content: ' ';
+    position: absolute;
+    border-radius: 50%;
+}
+
+div.Post2 div.post ul.posts li.post {
+    margin-top: 20px;
+}
